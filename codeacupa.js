@@ -1,7 +1,3 @@
-// seqence
-// loops
-// conditions
-
 // list of ingrediants
 let ingrediants = ["tea", "sugar", "water", "milk"];
 let equipment = ["kettle", "cup", "spoon"];
@@ -9,19 +5,15 @@ let equipment = ["kettle", "cup", "spoon"];
 // check for ingrediants
 if (
   ingrediants.includes("tea", "sugar", "water", "milk") &&
-    equipment.includes("kettle", "cup", "spoon")
+  equipment.includes("kettle", "cup", "spoon")
 ) {
-    const hotWater = equipment[0] + ingrediants[2];
-    let brew = equipment[1] + ingrediants[0] + ingrediants[1];
-    let tea = brew + hotWater + ingrediants[3];
-  console.log("We can make tea");
+  const hotWater = equipment[0] + ingrediants[2];
+  let brew = equipment[1] + ingrediants[0] + ingrediants[1];
+  let tea = brew + hotWater + ingrediants[3];
+  console.log("A cupa has been made");
 } else {
-
-
-
-
-
-
+  console.log("Ingrediants/equipment not provided");
+}
 
 // check for equipment
 
